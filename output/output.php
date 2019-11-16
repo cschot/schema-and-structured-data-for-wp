@@ -246,7 +246,8 @@ function saswp_schema_output() {
                         $saswp_review_count = "1";
                        
                         
-                        if($saswp_over_all_rating && $saswp_review_count && $saswp_review_item_enable ==1 && isset($sd_data['saswp-review-module']) && $sd_data['saswp-review-module'] ==1){
+                        if($saswp_over_all_rating && $saswp_review_count && $saswp_review_item_enable ==1 
+			   && isset($sd_data['saswp-review-module']) && $sd_data['saswp-review-module'] ==1){
                             
                            $aggregateRating =       array(
                                                             "@type"       => "AggregateRating",
